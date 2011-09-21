@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[repositories {
+    	$1
+}]]></content>
+    <tabTrigger>reps</tabTrigger>
+    <scope>source.groovy</scope>
+    <description>repositories</description>
+</snippet>
