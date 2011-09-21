@@ -1,6 +1,12 @@
 {
-    "cmd": ["gradle", "-b", "$file"],
+    "cmd": ["./gradlew", "-b", "$file", "--daemon"],
     "working_dir": "${project_path:${folder}}",
     "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
-    "selector": "*.gradle"
+    "working_dir": "$file_path",
+    "selector": "*.gradle",
+
+    "windows":
+    {
+        "cmd": ["gradlew.bat"]
+    }
 }
