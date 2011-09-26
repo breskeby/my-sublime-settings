@@ -1,3 +1,11 @@
 {
-	"font_size": 18
+	"font_size": 18,
+    "translate_tabs_to_spaces": false,
+
+    // Valid values are "smooth", "phase", "blink", "wide" and "solid".
+	"caret_style": "blink",
+
+	// Set to false to disable highlighting any line with a caret
+	"highlight_line": true
+
 }
