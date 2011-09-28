@@ -1,3 +1,5 @@
 [
-	{ "keys": ["ctrl+quote"], "command": "show_panel", "args": {"panel": "console"} }
+	{ "keys": ["ctrl+quote"], "command": "show_panel", "args": {"panel": "console"} },
+	{ "keys": ["shift+super+up"], "command": "swap_line_up" },
+	{ "keys": ["shift+super+down"], "command": "swap_line_down" }
 ]
